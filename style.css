@@ -1,0 +1,507 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #AD8EDD;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.first-ul{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.logo-img{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-left:50px ;
+    margin-top: 10px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.quick-links-img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+.dashboard-head{
+    width: 84px;
+height: 19px;
+font-size: 12px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #BEFB7A;
+}
+
+.side-head{
+    width: 40px;
+height: 19px;
+font-size: 12px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.side-link{
+    display: flex;
+    width: 100%;
+}
+
+.sidebar .user-profile {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar .user-profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar .user-profile p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.sidebar .user-profile span {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.line{
+    width: 241px;
+border: 1px 1px 1px 1px;
+border: 1px solid #BBA1E3;
+padding-left: 0;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Header Styles */
+.search-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin-right: 20px;
+    align-items: right;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 40px;
+    width: 160px;
+    display: flex;
+}
+
+.search-bar input {
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+
+/* Quick Links Styles */
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    width: Fixed (793px)px;
+}
+
+.quick-links-head{
+    width: 761px;
+height: 17px;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+color: #344054;
+display: block;
+}
+
+.quick-links button {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-links-btns{
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Overview Styles */
+.overview {
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border: 2px solid #F2F4F7;
+    margin-bottom: 20px;
+}
+
+.overview-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-heading{
+    width: 64px;
+height: 17px;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+color: #344054;
+}
+.time-selection {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time-selection button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #98A2B3;
+}
+
+
+.time-selection .active {
+    background-color: #F1EBF9;
+    color: #1D2939;
+}
+
+.chart {
+    height: 250px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.download-report {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.download-report-para{
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+color: #AD8EDD;
+margin-top: 0;
+}
+
+.download-report-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+/* Trading Accounts Styles */
+.trading-accounts{
+    width: 30%;
+}
+
+.right-arrow{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.account-info,
+.open-trades {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    width: Fixed (326px)px;
+height: Hug (355px)px;
+top: 99px;
+left: 1082px;
+padding: 16px;
+gap: 18px;
+border-radius: 12px 12px 12px 12px;
+border: 2px 2px 2px 2px;
+background-color: #FFFFFF;
+border: 2px solid #F2F4F7;
+margin-left: 20px;
+}
+
+.account-info h3,
+.open-trades h3 {
+    margin-top: 0;
+}
+
+.account-card,
+.trade-card {
+    margin-bottom: 15px;
+    background-color: #FCFCFD;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: Fixed (294px)px;
+height: Hug (135px)px;
+padding: 24px 17px 24px 17px;
+gap: 12px;
+border-radius: 12px 12px 12px 12px;
+border: 1px 0px 0px 0px;
+border: 1px solid #EAECF0;
+padding: 10px;
+}
+
+.trading-accounts-head{
+    width: 294px;
+height: 17px;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+color: #344054;
+}
+
+.dollar-arrow-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.master-account{
+font-size: 12px;
+font-weight: 600;
+text-align: left;
+color: #344054;
+}
+
+.dollars{
+    width: 34px;
+height: 19px;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #344054;
+display: flex;
+}
+
+.dollar-amount{
+    font-weight: bold;
+    width: 74px;
+height: 25px;
+margin-right: 4px;
+
+}
+
+.ctrader-para{
+    width: 52px;
+height: 15px;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.52px;
+text-align: left;
+color: #667085;
+display: flex;
+
+}
+
+.ctrader{
+    background-color: #F2F4F7;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    padding: 5px;
+    color: #344054;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.52px;
+text-align: left;
+margin-bottom: 5px;
+margin-right: 10px;
+
+}
+
+.dashboard-content {
+    background-color: #FFFFFF;
+    width: 65%;
+}
+
+.dashboard-details-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-trades-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-trades-para{
+    width: 50px;
+height: 15px;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.52px;
+text-align: left;
+color: #667085;
+display: flex;
+}
+
+.long-span{
+    background-color: #EBFFEE;
+    width: Hug (45px)px;
+height: Hug (23px)px;
+padding: 4px 8px 4px 8px;
+gap: 8px;
+border-radius: 32px 32px 32px 32px;
+margin-left: 5px;
+text-align: center;
+}
+
+.open-trades-para2{
+    display: flex;
+    width: 30px;
+height: 17px;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+color: #344054;
+}
+
+.profit{
+    width: 58px;
+height: 19px;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+text-align: left;
+color: #14AE5C;
+margin-right: 10px;
+}
+
+.loss{
+    width: 58px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    color: #EC221F;
+    margin-right: 10px;
+}
+
+.short-span{
+    background-color: #FEE9E7;
+    width: Hug (45px)px;
+height: Hug (23px)px;
+padding: 4px 8px 4px 8px;
+gap: 8px;
+border-radius: 32px 32px 32px 32px;
+margin-left: 5px;
+text-align: center;
+}
+
+.search-notif-container{
+    display: flex;
+}
+
+.quick-links-container{
+    display: flex;
+    flex-direction: column;
+    height: Hug (227px)px;
+top: 99px;
+left: 265px;
+padding: 16px;
+gap: 24px;
+border-radius: 12px 12px 12px 12px;
+border: 2px;
+background-color: #FFFFFF;
+border: 2px solid #F2F4F7;
+margin-bottom: 20px;
+}
+
+.main-dashboard-head{
+    width: 95px;
+height: 22px;
+top: 27px;
+left: 21px;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.78px;
+text-align: left;
+color: #344054;
+}
+
+.search-icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.notification-icon{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724340276/Group_19_vrcet8.png" alt = "logo" class="logo-img" />
+            </div>
+            <nav>
+                <ul class="first-ul">
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724342506/Vector_m5x87q.png" alt = "dashboard" class="quick-links-img" />
+                        <p class="dashboard-head">Dashboard</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724342995/Vector_1_rarjzp.png" alt = "crm" class="quick-links-img" />
+                        <p class="side-head">CRM</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343038/box-3-line_sbagkl.png" alt = "mam" class="quick-links-img" />
+                        <p class="side-head">MAM</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343094/pie-chart-line_o8s46n.png" alt = "pamm" class="quick-links-img" />
+                        <p class="side-head">PAMM</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343197/swap-box-line_mkx1lp.png" alt = "trade" class="quick-links-img" />
+                        <p class="side-head">Trade</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343236/wallet-line_vq6pdq.png" alt = "wallet" class="quick-links-img" />
+                        <p class="side-head">Wallet</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343273/Vector_2_zbyrrt.png" alt = "accounts" class="quick-links-img" />
+                        <p class="side-head">Accounts</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343315/Vector_3_qxyrv5.png" alt = "history" class="quick-links-img" />
+                        <p class="side-head">History</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343398/notification-4-line_cdoyk5.png" alt = "notification" class="quick-links-img" />
+                        <p class="side-head">Notifications</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343440/Vector_4_vdqhpn.png" alt = "settings" class="quick-links-img" />
+                        <p class="side-head">Settings</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343485/headphone-line_mx3caa.png" alt = "help" class="quick-links-img" />
+                        <p class="side-head">Help & Support</p>
+                    </li>
+                    <li class="side-link">
+                        <img src ="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343523/logout-box-line_oulqcw.png" alt = "logout" class="quick-links-img" />
+                        <p class="side-head">Log Out</p>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="line"/>
+            <div class="user-profile">
+                <img src="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724343570/Frame_19_exjep7.png" alt="User Profile">
+                <div>
+                    <p>Shyam Shakur</p>
+                <span>shyam01.shankur@mail.com</span>
+                </div>
+                
+            </div>
+        </aside>
+        <main class="main-content">
+            <header class="search-header">
+                <h1 class="main-dashboard-head">Dashboard</h1>
+                <div class="search-notif-container">
+                <div class="search-bar">
+                    <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724353307/search-2-line_mdwnzh.png" class="search-icon" />
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="notifications">
+                    <img src="https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724340376/notification-3-line_ikmqag.png" alt="Notifications" class="notification-icon">
+                </div>
+            </div>
+            </header>
+            <div class="dashboard-details-container">
+            <section class="dashboard-content">
+                <div class="quick-links-container">
+                    <h1 class="quick-links-head">Quick Links</h1>
+                <div class="quick-links">
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346047/arrow-left-down-line_kzslv2.png" class="main-links" />
+                        <p class="main-link-names">Deposit</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346360/arrow-right-up-line_re779f.png" class="main-links" />
+                        <p class="main-link-names">Withdraw</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346405/settings-4-line_xiav2r.png" class="main-links" />
+                        <p class="main-link-names">Settings</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346440/user-follow-line_jgk9my.png" class="main-links" />
+                        <p class="main-link-names">Verification</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346535/Vector_5_s9koxa.png" class="main-links" />
+                        <p class="main-link-names">Bonuses</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346562/line-chart-line_a9w0dg.png" class="main-links" />
+                        <p class="main-link-names">MT5</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346591/arrow-left-right-line_xakdui.png" class="main-links" />
+                        <p class="main-link-names">Transfer</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346617/history-line_s0irrs.png" class="main-links" />
+                        <p class="main-link-names">History</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346640/user-2-line_yqzjwo.png" class="main-links" />
+                        <p class="main-link-names">Partner</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346672/token-swap-line_grwckm.png" class="main-links" />
+                        <p class="main-link-names">Exchange</p>
+                    </button>
+                    <button>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346705/bar-chart-grouped-line_xuaq4z.png" class="main-links" />
+                        <p class="main-link-names">Analytics</p>
+                    </button>
+                </div>
+            </div>
+                <div class="overview">
+                    <div class="overview-header">
+                        <h2 class="overview-heading">Overview</h2>
+                    <button class="download-report">
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346867/Vector_6_ixwou1.png" class="download-report-img" />
+                        <p class="download-report-para">Download Report</p>
+                    </button>
+                    </div>
+                    <div class="time-selection">
+                        <button>Monthly</button>
+                        <button class="active">Yearly</button>
+                    </div>
+                    <div class="chart">
+                        <canvas id="overviewChart"></canvas>
+                    </div>
+                    
+                </div>
+            </section>
+        
+        <aside class="trading-accounts">
+            <div class="account-info">
+                <h3 class="trading-accounts-head">Trading Accounts</h3>
+                <div class="account-card">
+                    <p class="master-account">Master Account</p>
+                    <p class="ctrader-para"><span class="ctrader">CTrader</span> #273728</p>
+                    <div class="dollar-arrow-container">
+                        <p class="dollars"><span class="dollar-amount">0.00</span> USD</p>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346360/arrow-right-up-line_re779f.png" class="right-arrow" />
+                    </div>
+                    
+                </div>
+                <div class="account-card">
+                    <p class="master-account">Master Account</p>
+                    <p class="ctrader-para"><span class="ctrader">CTrader</span> #273728</p>
+                    <div class="dollar-arrow-container">
+                        <p class="dollars"><span class="dollar-amount">0.00</span> USD</p>
+                        <img src = "https://res.cloudinary.com/dt9mfzwqh/image/upload/v1724346360/arrow-right-up-line_re779f.png" class="right-arrow" />
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="open-trades">
+                <h3 class="trading-accounts-head">Open Trades</h3>
+                <div class="trade-card">
+                    <div class="open-trades-header">
+                        <p class="open-trades-para">GBPUSD <span class="long-span">Long</span></p>
+                        <p class="open-trades-para">0:12</p>
+                    </div>
+                    
+                    <p class="open-trades-para2"><span class="profit">+56.00</span> USD</p>
+                </div>
+                <div class="trade-card">
+                    <div class="open-trades-header">
+                        <p class="open-trades-para">USDJPY <span class="long-span">Long</span></p>
+                        <p class="open-trades-para">0:52</p>
+                    </div>
+                    
+                    <p class="open-trades-para2"><span class="profit">-0.09</span> USD</p>
+                </div>
+                <div class="trade-card">
+                    <div class="open-trades-header">
+                        <p class="open-trades-para">EURUSD <span class="short-span">Short</span></p>
+                        <p class="open-trades-para">0:34</p>
+                    </div>
+                    
+                    <p class="open-trades-para2"><span class="loss">-1.09</span> USD</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+    </div>
+    </div>
+    <script>
+        const ctx = document.getElementById('overviewChart').getContext('2d');
+const overviewChart = new Chart(ctx, {
+    type: 'bar', 
+    data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug','Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+            label: 'Monthly Revenue',
+            data: [800, 400, 1000, 230, 1300, 500, 600, 270, 1400, 350, 500, 150, 250],
+            backgroundColor: '#AD8EDD',
+            borderColor: '#AD8EDD',
+            borderWidth: 1,
+            barThickness: 26, // Width of bars
+            borderRadius: 4.8, // Border radius for the bars
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 1500,
+                ticks: {
+                    stepSize: 250,
+                    callback: function(value) {
+                        return '$' + value; 
+                    },
+                    color: '#98A2B3', // Color of the y-axis labels
+                },
+                grid: {
+                    display: false, 
+                },
+            },
+            x: {
+                ticks: {
+                    color: '#98A2B3', // Color of the x-axis labels
+                },
+                grid: {
+                    display: false, 
+                },
+            }
+        },
+        plugins: {
+            legend: {
+                display: false, 
+            },
+        },
+    }
+});
+
+
+    </script>
+</body>
+</html>
